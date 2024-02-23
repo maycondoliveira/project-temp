@@ -1,0 +1,116 @@
+* {
+    margin: 0;
+    padding:0;
+    font-family: "Open Sans", sans-serif;
+
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("images/quino-al-mBQIfKlvowM-unsplash.jpg");
+    background-size: cover;
+}
+
+.caixa-maior {
+    background-color: rgb(0, 0, 0);
+    opacity: 0.8;
+    border-radius: 25px;
+    padding: 20px;
+    width: 95%;
+    max-width: 450px;
+
+}
+
+.caixa-media {
+    margin-top: 30px;
+
+}
+
+.caixa-menor {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+
+}
+
+.input-cidade {
+    border: none;
+    outline: none;
+    padding: 10px;
+    border-radius: 25px;
+    font-size: 15px;
+    background-color: #5b717c86;
+    color: #d5f1ff;
+    width: calc(100% - 100px);
+}
+
+.botão-busca {
+    border: none;
+    outline: none;
+    padding: 10px;
+    border-radius: 50px;
+    background-color: #5b717c86;
+    cursor: pointer;
+    float: right;
+}
+
+.imagem-busca{
+    width: 20px;
+    border-radius: 20px;
+    color:#d5f1ff;
+}
+
+
+.cidade {
+    color:#d5f1ff;
+    font-size: 22px;
+    font-weight: 300;
+    font-weight: bolder;
+}
+
+.temp {
+    font-size: 40px;
+    color: #93cae5;
+    margin-top: 20px;
+
+}
+
+.texto-previsão {
+    color: #d5f1ff;
+    margin-left: 20px;
+    text-transform: capitalize;
+}
+
+.umidade {
+    color: #d5f1ff;
+    margin-top: 20px;
+}
+
+.max {
+    color: #93cae5;
+    display: flex;
+    margin-left: ;
+    font-size: 12px;
+}
+
+.min {
+    color:#93cae5;
+    display: flex;
+    margin-left: ;
+    font-size: 12px;
+}
+
+.text_temp {
+    color: #d5f1ff;
+    font-size: 22px;
+}
+
+.principal {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
